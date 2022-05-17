@@ -152,7 +152,7 @@ todo-app/
 - Uma pasta `node_modules`, **que é criada *(ou aproveitada, caso já exista)* durante a instalação - que é obrigatória - no container**;
 - Aplicativos fonte (`source`, `src`) e complementares (por exemplo `public`, `.env*`), **esses arquivos são da aplicação propriamente dita e devem estar no container**, caso não estejamos trabalhando apenas com _builds_ ou _compilações_ desses aplicativos *(que podem ter funcionamento diferente)*.
 
-###### Aproveitando os arquivos `node_modules.tar.gz`
+###### Aproveitando os arquivos `node_modules.tar.gz` 
 
 Aplicações `NodeJS`, durante suas respectivas instalações, geram uma pasta nomeada como `node_modules`, que contém tudo o que a aplicação precisa pra funcionar.
 
